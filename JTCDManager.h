@@ -7,6 +7,8 @@
 //
 //  TODO: add a start sdk method
 //  TODO: migrate FMDB Data to CoreData
+//  TODO: add set store path method & add default path
+
 
 #import <Foundation/Foundation.h>
 @import CoreData;
