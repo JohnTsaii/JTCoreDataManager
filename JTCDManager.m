@@ -83,7 +83,6 @@ static NSString *CDResourceName = @"you source full name";
     // set path of persistentStore
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
     NSString *cachePath = [paths objectAtIndex:0];
-//    NSString *path = [cachePath stringByAppendingString:@"/com.redblack.Dongzone325"];
     NSURL *storeUrl = [NSURL fileURLWithPath: [cachePath stringByAppendingPathComponent:CDResourceName]];
     
     // create persistentStore
